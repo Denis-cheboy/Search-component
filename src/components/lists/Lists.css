@@ -1,0 +1,50 @@
+.list-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .search-container input {
+    flex: 1;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-container svg {
+    margin-left: 10px;
+    color: #666;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .search-container svg:hover {
+    color: #333;
+  }
+  
+  .item-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s;
+  }
+  
+  .item-list li:hover {
+    background-color: #f9f9f9;
+  }
+  
+  
